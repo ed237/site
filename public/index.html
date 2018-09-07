@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>KC RESTAURANT</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="stylesheets\style.css">
+</head>
+<body>
+<div id="up">
+
+<div class="logo">
+	<img @click ="currentPage = 'logo'" src="images/logo.jpg">
+
+</div>
+	<ul>
+		<li @click ="currentPage = 'accueil'"> accueil</li>
+		<li @click ="currentPage = 'seConnecter'"> se connecter</li>
+		<li @click ="currentPage = 'panier'"> panier</li>
+	</ul>
+	<section v-if="currentPage === 'accueil'" id="accueil">
+		<p>nn</p>
+	</section>
+	<section v-else-if="currentPage === 'logo'" id="lg">
+	<form id="f1">
+              <fieldset id="fiel1">
+                      <legend a><h1>A sacoir sur nous</h1></legend>
+                       <p>si on trouve pas j'enlève la légende</p>
+                </fieldset>
+        </form> 
+
+	</section>
+	<section v-else-if="currentPage === 'seConnecter'" id="seConnecter">
+		<form id="f2">
+              <fieldset id="fiel">
+                      <legend a>Identification:</legend>
+                       Name: <br><br><input type="text" placeholder="edoux" required><br>
+                       Email:<br><br><input type="email" placeholder="kamgaing@et.esiea.fr" required><br>
+                       Date of birth: <br><br><input type="date" required><br><br>
+                       <button id="btn">valider </button>
+                </fieldset>
+        </form> 
+
+	</section>
+	<section v-else-if="currentPage === 'panier'" id="panier">
+		<p>ici je dois créer une liste qui contient ses éléments</p>
+		 
+	</section>
+	
+</div>
+
+<div id="users">
+	
+</div>
+
+<div id="login">
+	
+</div>
+
+<div>
+	
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+<script type="text/javascript">
+	var vm = new Vue ({
+		el: '#up',
+		data: {
+			currentPage : accueil,
+		}
+	})
+</script>
+</body>
+</html>
