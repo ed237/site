@@ -19,13 +19,13 @@
 		<li @click ="currentPage = 'panier'"> panier</li>
 	</ul>
 	<section v-if="currentPage === 'accueil'" id="accueil">
-		<p>nn</p>
+	<link  href="index.html">
 	</section>
 	<section v-else-if="currentPage === 'logo'" id="lg">
 	<form id="f1">
               <fieldset id="fiel1">
                       <legend a><h1>A sacoir sur nous</h1></legend>
-                       <p>si on trouve pas j'enlève la légende</p>
+                       <p>Nous sommes un restaurant dans le quel nous vous pouviez commandez vos menus</p>
                 </fieldset>
         </form> 
 
@@ -34,10 +34,11 @@
 		<form id="f2">
               <fieldset id="fiel">
                       <legend a>Identification:</legend>
-                       Name: <br><br><input type="text" placeholder="edoux" required><br>
+                       Name: <br><br><input type="text" placeholder="edoux" required id="name"><br>
                        Email:<br><br><input type="email" placeholder="kamgaing@et.esiea.fr" required><br>
                        Date of birth: <br><br><input type="date" required><br><br>
-                       <button id="btn">valider </button>
+                       <button><a href="index2.html">valider</a></button>
+                       
                 </fieldset>
         </form> 
 
@@ -53,11 +54,11 @@
 	
 </div>
 
-<div id="login">
-	
-</div>
 
-<div>
+
+<div id="login">
+
+
 	
 </div>
 
@@ -71,6 +72,8 @@
 		el: '#up',
 		data: {
 			currentPage : accueil,
+			
+
 		}
 	})
 </script>
