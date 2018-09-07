@@ -1,53 +1,8 @@
-/*body {
+body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}*/
-
-#up
-{
-	background-color: black;
-	height: 100px;	
 }
 
-#up ul li
-{
-	display: inline-block;
-	color: white;
-	text-decoration: none;
-	padding: 15px;
-	font-family: "Roboto", sans-serif;
-	font-size: 15px;
-	margin-right: 0px;
-	
-}
-
-
-/*#up ul li p: hover
-{
-	border: 1px solid white;
-}*/
-
-img 
-
-{
-
-	width: 105px;
-	height: auto;
-	float: left;
-	padding: 0px;
-
-}
-
-#fiel
-{
-	text-align: center;
-	padding: 27px;
-	margin: 50px;
-}
-
-#fiel1
-{
-	text-align: center;
-	padding: 100px;
-	margin: 100px;
+a {
+  color: #00B7FF;
 }

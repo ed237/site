@@ -1,0 +1,62 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+#up
+{
+	background-color: black;
+	height: 100px;	
+}
+
+#up ul li
+{
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	padding: 15px;
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+	
+}
+
+#yo{
+	background-color: green;
+}
+/*#up ul li p: hover
+{
+	border: 1px solid white;
+}*/
+
+img 
+
+{
+
+	width: 105px;
+	height: auto;
+	float: left;
+	padding: 0px
+
+}
+
+
+#fiel
+{
+	text-align: center;
+	padding: 275px;
+	margin: 100px;
+}
+
+#fiel1
+{
+	text-align: center;
+	padding: 100px;
+	margin: 100px;
+}
+
+#middle
+{
+	background-color: green;
+	height: 350px;
+}
